@@ -19,6 +19,13 @@
 		B8E363851A305B8400F3579F /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B8E3636D1A305B8400F3579F /* UIKit.framework */; };
 		B8E3638D1A305B8400F3579F /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = B8E3638B1A305B8400F3579F /* InfoPlist.strings */; };
 		B8E3638F1A305B8400F3579F /* AdShowTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B8E3638E1A305B8400F3579F /* AdShowTests.m */; };
+		B8E363A81A305E5200F3579F /* AccelerationAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = B8E3639B1A305E5200F3579F /* AccelerationAnimation.m */; };
+		B8E363A91A305E5200F3579F /* Evaluate.m in Sources */ = {isa = PBXBuildFile; fileRef = B8E3639D1A305E5200F3579F /* Evaluate.m */; };
+		B8E363AA1A305E5200F3579F /* REBackgroundView.m in Sources */ = {isa = PBXBuildFile; fileRef = B8E3639F1A305E5200F3579F /* REBackgroundView.m */; };
+		B8E363AB1A305E5200F3579F /* RESideMenu.m in Sources */ = {isa = PBXBuildFile; fileRef = B8E363A11A305E5200F3579F /* RESideMenu.m */; };
+		B8E363AC1A305E5200F3579F /* RESideMenuCell.m in Sources */ = {isa = PBXBuildFile; fileRef = B8E363A31A305E5200F3579F /* RESideMenuCell.m */; };
+		B8E363AD1A305E5200F3579F /* RESideMenuItem.m in Sources */ = {isa = PBXBuildFile; fileRef = B8E363A51A305E5200F3579F /* RESideMenuItem.m */; };
+		B8E363AE1A305E5200F3579F /* UIWindow+RESideMenuExtensions.m in Sources */ = {isa = PBXBuildFile; fileRef = B8E363A71A305E5200F3579F /* UIWindow+RESideMenuExtensions.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +55,20 @@
 		B8E3638A1A305B8400F3579F /* AdShowTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "AdShowTests-Info.plist"; sourceTree = "<group>"; };
 		B8E3638C1A305B8400F3579F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		B8E3638E1A305B8400F3579F /* AdShowTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AdShowTests.m; sourceTree = "<group>"; };
+		B8E3639A1A305E5200F3579F /* AccelerationAnimation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AccelerationAnimation.h; sourceTree = "<group>"; };
+		B8E3639B1A305E5200F3579F /* AccelerationAnimation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AccelerationAnimation.m; sourceTree = "<group>"; };
+		B8E3639C1A305E5200F3579F /* Evaluate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Evaluate.h; sourceTree = "<group>"; };
+		B8E3639D1A305E5200F3579F /* Evaluate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Evaluate.m; sourceTree = "<group>"; };
+		B8E3639E1A305E5200F3579F /* REBackgroundView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = REBackgroundView.h; sourceTree = "<group>"; };
+		B8E3639F1A305E5200F3579F /* REBackgroundView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = REBackgroundView.m; sourceTree = "<group>"; };
+		B8E363A01A305E5200F3579F /* RESideMenu.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RESideMenu.h; sourceTree = "<group>"; };
+		B8E363A11A305E5200F3579F /* RESideMenu.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RESideMenu.m; sourceTree = "<group>"; };
+		B8E363A21A305E5200F3579F /* RESideMenuCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RESideMenuCell.h; sourceTree = "<group>"; };
+		B8E363A31A305E5200F3579F /* RESideMenuCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RESideMenuCell.m; sourceTree = "<group>"; };
+		B8E363A41A305E5200F3579F /* RESideMenuItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RESideMenuItem.h; sourceTree = "<group>"; };
+		B8E363A51A305E5200F3579F /* RESideMenuItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RESideMenuItem.m; sourceTree = "<group>"; };
+		B8E363A61A305E5200F3579F /* UIWindow+RESideMenuExtensions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIWindow+RESideMenuExtensions.h"; sourceTree = "<group>"; };
+		B8E363A71A305E5200F3579F /* UIWindow+RESideMenuExtensions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIWindow+RESideMenuExtensions.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +98,7 @@
 		B8E3635D1A305B8300F3579F = {
 			isa = PBXGroup;
 			children = (
+				B8E363981A305E5200F3579F /* class */,
 				B8E3636F1A305B8400F3579F /* AdShow */,
 				B8E363881A305B8400F3579F /* AdShowTests */,
 				B8E363681A305B8400F3579F /* Frameworks */,
@@ -142,6 +164,36 @@
 				B8E3638B1A305B8400F3579F /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B8E363981A305E5200F3579F /* class */ = {
+			isa = PBXGroup;
+			children = (
+				B8E363991A305E5200F3579F /* RESideMenu */,
+			);
+			name = class;
+			path = AdShow/class;
+			sourceTree = "<group>";
+		};
+		B8E363991A305E5200F3579F /* RESideMenu */ = {
+			isa = PBXGroup;
+			children = (
+				B8E3639A1A305E5200F3579F /* AccelerationAnimation.h */,
+				B8E3639B1A305E5200F3579F /* AccelerationAnimation.m */,
+				B8E3639C1A305E5200F3579F /* Evaluate.h */,
+				B8E3639D1A305E5200F3579F /* Evaluate.m */,
+				B8E3639E1A305E5200F3579F /* REBackgroundView.h */,
+				B8E3639F1A305E5200F3579F /* REBackgroundView.m */,
+				B8E363A01A305E5200F3579F /* RESideMenu.h */,
+				B8E363A11A305E5200F3579F /* RESideMenu.m */,
+				B8E363A21A305E5200F3579F /* RESideMenuCell.h */,
+				B8E363A31A305E5200F3579F /* RESideMenuCell.m */,
+				B8E363A41A305E5200F3579F /* RESideMenuItem.h */,
+				B8E363A51A305E5200F3579F /* RESideMenuItem.m */,
+				B8E363A61A305E5200F3579F /* UIWindow+RESideMenuExtensions.h */,
+				B8E363A71A305E5200F3579F /* UIWindow+RESideMenuExtensions.m */,
+			);
+			path = RESideMenu;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -242,8 +294,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B8E363A91A305E5200F3579F /* Evaluate.m in Sources */,
+				B8E363AA1A305E5200F3579F /* REBackgroundView.m in Sources */,
+				B8E363AE1A305E5200F3579F /* UIWindow+RESideMenuExtensions.m in Sources */,
 				B8E3637A1A305B8400F3579F /* AppDelegate.m in Sources */,
+				B8E363AD1A305E5200F3579F /* RESideMenuItem.m in Sources */,
+				B8E363AC1A305E5200F3579F /* RESideMenuCell.m in Sources */,
 				B8E363761A305B8400F3579F /* main.m in Sources */,
+				B8E363AB1A305E5200F3579F /* RESideMenu.m in Sources */,
+				B8E363A81A305E5200F3579F /* AccelerationAnimation.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
